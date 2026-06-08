@@ -94,7 +94,7 @@ export default function HistoryChart({ data, loading }: HistoryChartProps) {
         borderWidth: 1,
         titleColor: '#f1f5f9',
         bodyColor: '#94a3b8',
-        titleFont: { size: 12, family: 'Inter', weight: '600' as const },
+        titleFont: { size: 12, family: 'Inter', weight: 'bold' as const },
         bodyFont: { size: 11, family: 'JetBrains Mono' },
         padding: 12,
         cornerRadius: 10,
